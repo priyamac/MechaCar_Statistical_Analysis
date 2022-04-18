@@ -84,4 +84,19 @@ With a P-Vlaue of 0.04168 Lot 3 is just below 0.05 meaning the results are stati
 ---
 ## Study Design: MechaCar vs Competition
 
+Using R, a statistical study can be created to compare the performance of the MechaCar vehicles against performance of vehicles from other manufacturers. When looking at the performance of a car, many specs could be used, such as engine power, speed, agility, driving experience, among many. Maintenance cost is also very important for car performance, so this could be a good measure to use. 
 
+#### Metric to Test
+In this study we'll analyze MechaCar's average yearly maintenance cost in comparison to the competition.
+
+#### Null Hypothesis
+MechaCar's average yearly maintenance cost is similar to competitor's vehicles.
+
+#### Alternative Hypothesis
+MechaCar's average yearly maintenance cost is statistically lower than the competition.
+
+#### Statistical Test Used
+A two-sample t-test would be the best statistical test to use as we are testing for the difference between the distribution from two samples but for one variable.
+
+#### What data is needed
+Data that would need to be collected woudl be the average maintenance cost of all MechaCars over the course of 5 years, alongside major competitor's maintenance costs.
